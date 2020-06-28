@@ -1,3 +1,5 @@
+package firststeps.helloworld;
+
 public class HelloWorld {
 
     public static void main(String[] args){
@@ -8,7 +10,6 @@ public class HelloWorld {
         int myThirdNumber = 6;
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
-
         System.out.println(myTotal);
 
         int myLastOne = myTotal - 1000;
