@@ -27,5 +27,20 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("long Minimum Value = " + myMinLongValue);
         System.out.println("long Maximum Value = " + myMaxLongValue);
+
+//        casting
+
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2 );
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
+        byte anyByteNumber = 100;
+        short anyShortNumber = 30000;
+        int anyIntNumber = 1000000;
+
+        long myVeryLongVariable = 50000L + 10L * (anyByteNumber + anyShortNumber + anyIntNumber);
+        System.out.println(myVeryLongVariable );
     }
 }
